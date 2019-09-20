@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  background-color: #444;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-image: url("164622.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#main {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 300;
+  font-size: 6rem;
+  color: #fff;
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  padding: 0.2rem 1rem;
+  color: #fff;
+}
+
+h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+#projectBtn {
+  border: 1px solid #fff;
+  padding: 10px 25px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+}
